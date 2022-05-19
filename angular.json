@@ -5,6 +5,11 @@
   "projects": {
     "i18ndemo": {
       "projectType": "application",
+      "i18n": {
+        "locales": {
+          "it": "src/locale/messages.it.xlf"
+        }
+      },
       "schematics": {
         "@schematics/angular:application": {
           "strict": true
@@ -63,6 +68,9 @@
               "extractLicenses": false,
               "sourceMap": true,
               "namedChunks": true
+            },
+            "it": {
+              "localize": ["it"]
             }
           },
           "defaultConfiguration": "production"
@@ -75,6 +83,9 @@
             },
             "development": {
               "browserTarget": "i18ndemo:build:development"
+            },
+            "it": {
+              "browserTarget": "i18ndemo:build:it"
             }
           },
           "defaultConfiguration": "development"
