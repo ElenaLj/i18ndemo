@@ -1,66 +1,116 @@
 <div class="card">
   <div class="card_title text-center">
-    <h1>i18n</h1>
-    <h4><em>the process of designing and preparing your project for use in different locales around the world.</em></h4>
+    <h1 i18n="Title|This is the title of the web app@@title">i18n</h1>
+    <h4><em i18n="Subtitle|This is the subtitle of the web app@@subtitle">the process of designing and preparing your project for use in different locales around the world.</em></h4>
   </div>
   <div class="card_content">
     <div class="accordion" id="accordionExample">
+      <!-- First accordion -->
       <div class="accordion-item">
         <h2 class="accordion-header" id="headingOne">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          <button
+            class="accordion-button"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseOne"
+            aria-expanded="true"
+            aria-controls="collapseOne"
+            i18n="AccordionOne|This is the first accordion@@accordion-one">
             Why i18n?
           </button>
         </h2>
         <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-          <div class="accordion-body">
+          <div
+            class="accordion-body"
+            i18n="AccordionOneContent|This is the content of the first accordion@@accordion-one-content">
             "i18n" is a numeronym. "18" stands for the number of letters bewteen the first letter ("i") and the last letter ("n") in the word <strong>internationalization</strong>
           </div>
         </div>
       </div>
+      <!-- Second accordion -->
       <div class="accordion-item">
-        <h2 class="accordion-header" id="headingThree">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+        <h2 class="accordion-header" id="headingTwo">
+          <button
+            class="accordion-button"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseTwo"
+            aria-expanded="true"
+            aria-controls="collapseTwo"
+            i18n="AccordionTwo|This is the second accordion@@accordion-two">
             Why should you use it?
           </button>
         </h2>
-        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-          <div class="accordion-body">
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+          <div
+            class="accordion-body"
+            i18n="AccordionTwoContent|This is the content of the second accordion@@accordion-two-content">
             i18n enables the application to target any language in the world and is a <strong>must required feature </strong>for any modern web application. User can see dates, number, percentages and currencies in local format, handle plural forms of words, manage alternate texts, text in components templates for translations.
           </div>
         </div>
       </div>
+      <!-- Third accordion -->
       <div class="accordion-item">
-        <h2 class="accordion-header" id="headingFour">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+        <h2 class="accordion-header" id="headingThree">
+          <button
+            class="accordion-button"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseThree"
+            aria-expanded="true"
+            aria-controls="collapseThree"
+            i18n="AccordionThree|This is the third accordion@@accordion-three">
             i18n and Angular
           </button>
         </h2>
-        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-          <div class="accordion-body">
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+          <div
+            class="accordion-body"
+            i18n="AccordionThreeContent|This is the content of the third accordion@@accordion-three-content">
             Angular introduced this functionality in with v6 release in 2018 and it became largely adopted tool globally. Most of the online businesses are looking to expand their business into a global platform.
           </div>
         </div>
       </div>
+      <!-- Fourth acordion -->
       <div class="accordion-item">
-        <h2 class="accordion-header" id="headingFive">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+        <h2 class="accordion-header" id="headingFour">
+          <button
+            class="accordion-button"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseFour"
+            aria-expanded="true"
+            aria-controls="collapseFour"
+            i18n="AccordionFour|This is the fourth accordion@@accordion-four">
             What is the concept of localization?
           </button>
         </h2>
-        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
-          <div class="accordion-body">
+        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+          <div
+            class="accordion-body"
+            i18n="AccordionFourContent|This is the content of the fourth accordion@@accordion-four-content">
             Localization aka "l10n" is something which translates your internationalized "i18n" app into the local one - for specific region, locality or culture. There's huge potential that your app can gain maximum number of an audience.
           </div>
         </div>
       </div>
+      <!-- Fifth accordion -->
       <div class="accordion-item">
-        <h2 class="accordion-header" id="headingSix">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
+        <h2 class="accordion-header" id="headingFive">
+          <button
+            class="accordion-button"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseSix"
+            aria-expanded="true"
+            aria-controls="collapseSix"
+            i18n="AccordionFive|This is the fifth accordion@@accordion-five">
             What is the difference between l10n and i18n?
           </button>
         </h2>
         <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-          <div class="accordion-body">
+          <div
+            class="accordion-body"
+            i18n="AccordionFiveContent|This is the content of the fifth accordion@@accordion-five-content">
             We can say, Internationalization is to make you globally available without making any engineering changes, while localization is the term for helping your internationalized app locally adopted.
           </div>
         </div>
@@ -68,4 +118,3 @@
     </div>
   </div>
 </div>
-
