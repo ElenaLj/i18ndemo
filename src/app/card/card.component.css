@@ -1,0 +1,16 @@
+.card {
+  padding: 2rem;
+}
+
+.card_title {
+  margin-bottom: 1.25rem;
+}
+
+.accordion {
+  background-color: cornsilk;
+}
+
+.accordion-button:not(.collapsed) {
+  color: var(--main-text-color);
+  background-color: var(--main-bg-color);
+}
