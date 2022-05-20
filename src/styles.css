@@ -2,7 +2,8 @@
 
 :root {
   --main-bg-color: #ffffff;
-  --main-text-color: blue;
+  --accordion-bg-color: rgb(220, 240, 253);
+  --main-text-color: rgb(2,131,210);
   --text-size: 1rem;
 }
 

@@ -2,11 +2,18 @@
   margin-bottom: 1.25rem;
 }
 
-.accordion {
+/* .accordion {
   background-color: cornsilk;
+} */
+
+/* .accordion-button.collapsed {
+  background-color: var(--accordion-bg-color);
+} */
+
+.accordion-button {
+  color: var(--main-text-color);
 }
 
-.accordion-button:not(.collapsed) {
-  color: var(--main-text-color);
-  background-color: var(--main-bg-color);
+.accordion-item {
+  border: none;
 }

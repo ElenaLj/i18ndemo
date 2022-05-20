@@ -14,7 +14,7 @@
       </trans-unit>
       <trans-unit id="subtitle" datatype="html">
         <source>the process of designing and preparing your project for use in different locales around the world.</source>
-        <target>il processo di progettazione e preparazione del tuo progetto per l'uso in diverse localit&agrave; del mondo</target>
+        <target>il processo di progettazione e preparazione della tua web app per l'uso in diverse localit&agrave; del mondo</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/card/card.component.html</context>
           <context context-type="linenumber">4</context>
@@ -56,7 +56,7 @@
       </trans-unit>
       <trans-unit id="accordion-two-content" datatype="html">
         <source> i18n enables the application to target any language in the world and is a <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>must required feature <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>for any modern web application. User can see dates, number, percentages and currencies in local format, handle plural forms of words, manage alternate texts, text in components templates for translations.</source>
-        <target>i18n permette all'applicazione di targhetizzare qualsiasi lingua nel mondo ed &grave; <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>una feature essenziale<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> per qualsiasi applicazione web moderna. L'utente può vedere date, numeri, percentuali e valute nel formato locale, gestire i plurali delle parole, gestire testi alternativi, il testo nel template del componente per le traduzioni.</target>
+        <target>i18n permette all'applicazione di targhetizzare qualsiasi lingua nel mondo ed &egrave; una <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>feature essenziale<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> per qualsiasi applicazione web moderna. L'utente può vedere date, numeri, percentuali e valute nel formato locale, gestire i plurali delle parole, gestire testi alternativi e modificare il testo nel template del componente per le traduzioni.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/card/card.component.html</context>
           <context context-type="linenumber">47,49</context>
@@ -77,7 +77,7 @@
       </trans-unit>
       <trans-unit id="accordion-three-content" datatype="html">
         <source> Angular introduced this functionality in with v6 release in 2018 and it became largely adopted tool globally. Most of the online businesses are looking to expand their business into a global platform.</source>
-        <target>Angular introdusse questa funzionalit&agrave; con la sesta release nel 2018 e divenne uno strumento largamente adottato globalmente. La maggior parte dei business online stanno guardando come espandere il loro business su una piattaforma globale.</target>
+        <target>Angular ha introdotto questa funzionalit&agrave; con la sesta release del 2018; &egrave; diventata presto uno strumento largamente adottato a livello globale. La maggior parte dei business online sta guardando come espandere la propria presenza su una piattaforma globale.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/card/card.component.html</context>
           <context context-type="linenumber">69,71</context>
@@ -88,7 +88,7 @@
       <!-- Accordion Four -->
       <trans-unit id="accordion-four" datatype="html">
         <source> What is the concept of localization? </source>
-        <target>Cosa &egrave; il concetto di localizzazione</target>
+        <target>Cosa &egrave; il concetto di localizzazione?</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/card/card.component.html</context>
           <context context-type="linenumber">84,86</context>
@@ -98,7 +98,7 @@
       </trans-unit>
       <trans-unit id="accordion-four-content" datatype="html">
         <source> Localization aka &quot;l10n&quot; is something which translates your internationalized &quot;i18n&quot; app into the local one - for specific region, locality or culture. There&apos;s huge potential that your app can gain maximum number of an audience.</source>
-        <target>Localizzazione alias &quot;l10n&quot; &egrave; ci&ograve; che traduce la tua app i18n in una app locale - per regioni, localit&agrave; o culture specifiche. C&apos;&egrave; un grande potenziale che la tua app possa guadagnare il massimo numero di un pubblico</target>
+        <target>Localizzazione alias &quot;l10n&quot; &egrave; ci&ograve; che traduce la tua app i18n in una app locale - secondo regioni, localit&agrave; o culture specifiche. Così la tua app ha un grande potenziale di raggiungere il massimo numero di persone</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/card/card.component.html</context>
           <context context-type="linenumber">91,93</context>
@@ -119,7 +119,7 @@
       </trans-unit>
       <trans-unit id="accordion-five-content" datatype="html">
         <source> We can say, Internationalization is to make you globally available without making any engineering changes, while localization is the term for helping your internationalized app locally adopted. </source>
-        <target>Si pu&ograve; dire che, l'internazionalizzazione ti rende globalmente disponibile senza apportare modifiche al codice, mentre la localizzazione &egrave; il termine designato ai processi che rendono la tua app internazionale localmente adottabile</target>
+        <target>Si pu&ograve; dire che, l'internazionalizzazione rende la tua app globalmente disponibile senza apportare modifiche al codice, mentre la localizzazione &egrave; il termine designato ai processi che rendono la tua app internazionale localmente adottabile</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/card/card.component.html</context>
           <context context-type="linenumber">113,115</context>
@@ -138,7 +138,7 @@
         <note priority="1" from="meaning">Date</note>
       </trans-unit>
       <trans-unit id="messages" datatype="html">
-        <source>Inbox: <x id="INTERPOLATION" equiv-text="{{ messages.length | i18nPlural: messageMapping }}"/></source>
+        <source><x id="INTERPOLATION" equiv-text="{{ messages.length | i18nPlural: messageMapping }}"/></source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/item/item.component.html</context>
           <context context-type="linenumber">3</context>
