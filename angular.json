@@ -1,13 +1,17 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": false
+  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "i18ndemo": {
       "projectType": "application",
       "i18n": {
+        "sourceLocale": "en-US",
         "locales": {
-          "it": "src/locale/messages.it.xlf"
+          "it-IT": "src/locale/messages.it.xlf"
         }
       },
       "schematics": {
@@ -70,7 +74,9 @@
               "namedChunks": true
             },
             "it": {
-              "localize": ["it"]
+              "localize": [
+                "it"
+              ]
             }
           },
           "defaultConfiguration": "production"

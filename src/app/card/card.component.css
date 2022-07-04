@@ -1,19 +1,19 @@
-.card_title {
-  margin-bottom: 1.25rem;
+:host {
+  width: 70%;
+  margin: auto;
 }
 
-/* .accordion {
-  background-color: cornsilk;
-} */
-
-/* .accordion-button.collapsed {
-  background-color: var(--accordion-bg-color);
-} */
-
-.accordion-button {
-  color: var(--main-text-color);
+.card {
+  margin: auto;
+  color: #13750d;
+  background-color: #fddfab;
+  border: 4px solid #13750d;
 }
 
-.accordion-item {
-  border: none;
+img {
+  width: 300px;
+}
+
+.table {
+  border-bottom: 1px solid #13750d;
 }
