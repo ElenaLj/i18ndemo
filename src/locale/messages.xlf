@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="title" datatype="html">
+        <source>Your order is on it&apos;s way!</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/card/card.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="image-alt" datatype="html">
+        <source>Delivery truck clipart</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/card/card.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="items" datatype="html">
+        <source>Items</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/card/card.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="quantity" datatype="html">
+        <source>Qty</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/card/card.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="amount" datatype="html">
+        <source>Amount</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/card/card.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="total" datatype="html">
+        <source>Total </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/card/card.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="subtitle" datatype="html">
+        <source>Your order has been processed. Thank you for shopping with us ♥</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/card/card.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="sunscreen" datatype="html">
+        <source>High protection sunscreen SPF50+</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/card/card.component.ts</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="nail-polish" datatype="html">
+        <source>Nail polish</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/card/card.component.ts</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="perfume" datatype="html">
+        <source>Lilac and lavander natural perfume</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/card/card.component.ts</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="shampoo" datatype="html">
+        <source>Shampoo for sensitive scalp</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/card/card.component.ts</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,6 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, Inject, LOCALE_ID } from '@angular/core';
 
-export interface Pizza {
+export interface Item {
   name: string,
   quantity: number,
   price: number
@@ -12,26 +12,30 @@ export interface Pizza {
 })
 export class CardComponent {
 
-  pizzas: Pizza[] = [
+  currentDate = new Date();
+
+  items: Item[] = [
     {
-      name: $localize`:@@pizza-one:Pizza Hot Stuff`,
+      name: $localize`:@@sunscreen:High protection sunscreen SPF50+`,
       quantity: 2,
-      price: 18.90
+      price: 35.90
     },
     {
-      name: $localize`:@@pizza-one:Pizza Classic Pepperoni`,
+      name: $localize`:@@nail-polish:Nail polish`,
       quantity: 3,
       price: 28.50
     },
     {
-      name: $localize`:@@pizza-one:Pizza Very Veggie`,
+      name: $localize`:@@perfume:Lilac and lavander natural perfume`,
       quantity: 1,
       price: 13.30
     },
     {
-      name: $localize`:@@pizza-one:Pizza Tropical Hawaiian`,
+      name: $localize`:@@shampoo:Shampoo for sensitive scalp`,
       quantity: 1,
       price: 15.90
     },
   ]
+
+  constructor(@Inject(LOCALE_ID) public locale: string) { }
 }

@@ -4,8 +4,8 @@
   align-items: center;
   height: 100vh;
   font-size: 20px;
-  background-image: url("../assets/pizza-slice-pattern-background.webp");
+  background-image: url("../assets/wave.svg");
+  background-position: bottom;
   background-size: cover;
-  background-position: center;
   background-repeat: no-repeat;
 }

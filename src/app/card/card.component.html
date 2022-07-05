@@ -1,30 +1,28 @@
 <div class="card">
-  <div class="d-flex align-items-center justify-content-around">
-    <h1 i18n="@@title">Your order is on it's way!</h1>
-    <img src="../../assets/pizza-delivery-car-pizza-delivery.png" alt="Scooter delivery clipart" i18n-alt="@@image-alt">
+  <h1 i18n="@@title" class="text-center">Your order is on it's way!</h1>
+  <div class="d-flex align-items-center">
+    <img src="../../assets/delivery.png" alt="Delivery truck clipart" i18n-alt="@@image-alt">
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col" i18n="@@items">Items</th>
+          <th scope="col" i18n="@@quantity">Qty</th>
+          <th scope="col" i18n="@@amount">Amount</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let item of items">
+          <td>{{ item.name }}</td>
+          <td> {{ item.quantity }}</td>
+          <td> {{ item.price | currencySymbolPipe }}</td>
+        </tr>
+        <tr>
+          <td> {{ currentDate | date }} </td>
+          <td i18n="@@total">Total </td>
+          <td>{{ 75.60 | currencySymbolPipe }}</td>
+        </tr>
+      </tbody>
+    </table>
   </div>
-  <table class="table">
-    <thead>
-      <tr>
-        <th scope="col" i18n="@@order">Order</th>
-        <th scope="col" i18n="@@quantity">Qty</th>
-        <th scope="col" i18n="@@amount">Amount</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr *ngFor="let pizza of pizzas">
-        <td>{{ pizza.name }}</td>
-        <td> {{ pizza.quantity }}</td>
-        <td>{{ pizza.price | currency }}</td>
-      </tr>
-      <tr>
-        <td> {{"04/07/2022" | date }} </td>
-        <td>Total </td>
-        <td>{{75.60 | currency}}</td>
-      </tr>
-    </tbody>
-  </table>
   <p class="text-center" i18n="@@subtitle">Your order has been processed. Thank you for shopping with us &hearts;</p>
-
-
 </div>
