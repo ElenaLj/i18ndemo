@@ -26,6 +26,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "localize": true,
             "outputPath": "dist/i18ndemo",
             "index": "src/index.html",
             "main": "src/main.ts",
