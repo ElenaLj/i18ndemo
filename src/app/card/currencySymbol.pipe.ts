@@ -6,11 +6,11 @@ import { Inject, LOCALE_ID, Pipe, PipeTransform } from '@angular/core';
 export class currencySymbolPipe implements PipeTransform {
 
   transform(value: any) {
-    if (this.locale == "en-US") {
+    if (this.locale === "en-US") {
       return "$" + value;
     }
     return value + "€"
   }
 
-  constructor(@Inject(LOCALE_ID) public locale: string) { }
+  constructor(@Inject(LOCALE_ID) private locale: string) { }
 }

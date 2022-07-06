@@ -7,19 +7,19 @@
         <tr>
           <th scope="col" i18n="@@items">Items</th>
           <th scope="col" i18n="@@quantity">Qty</th>
-          <th scope="col" i18n="@@amount">Amount</th>
+          <th scope="col" i18n="@@amount" class="text-end">Amount</th>
         </tr>
       </thead>
       <tbody>
         <tr *ngFor="let item of items">
           <td>{{ item.name }}</td>
           <td> {{ item.quantity }}</td>
-          <td> {{ item.price | currencySymbolPipe }}</td>
+          <td class="text-end"> {{ item.price | currency }}</td>
         </tr>
         <tr>
           <td> {{ currentDate | date }} </td>
           <td i18n="@@total">Total </td>
-          <td>{{ 75.60 | currencySymbolPipe }}</td>
+          <td class="text-end">{{ 75.60 | currency }}</td>
         </tr>
       </tbody>
     </table>
